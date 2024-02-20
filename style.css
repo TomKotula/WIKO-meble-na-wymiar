@@ -8,7 +8,59 @@ html {
   box-sizing: inherit;
 }
 
-#gallery {
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#navigation {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.navigation__contener {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.list__item {
+  padding: 30px;
+  font-size: 20px;
+}
+
+.list__item--logo {
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border: 0.5px solid #ccc;
+  border-radius: 50%;
+}
+
+.list__item--links {
+  text-decoration: none;
+  color: black;
+}
+
+.list__item--links:hover {
+  color: rgb(100, 100, 100);
+}
+
+.list__item--links:active {
+  color: rgb(148, 148, 148);
+}
+
+.gallery {
   position: relative;
   max-width: 1000px;
 }

@@ -10,42 +10,63 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anta&family=Jacquarda+Bastarda+9&family=Micro+5&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
     <link rel="icon" href="">
     <meta property="og:image" content="">
     <link href="style.css" rel="stylesheet">
     <script defer src="script.js"></script>
+
+    <!-- Second font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Anta&family=Jacquarda+Bastarda+9&family=Micro+5&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="body">
     <nav id="navigation">
-        <ul>
-            <li>WIKO</li>
-            <li>O nas</li>
-            <li>Nasza oferta</li>
-            <li>Kontakt</li>
-            <li>&#128222;</li>
-            <li>✉️</li>
-        </ul>
+        <div class="navigation__contener">
+            <ul class="navigation__list">
+                <li class="list__item list__item--logo">WIKO</li>
+            </ul>
+            <ul class="navigation__list">
+                <li class="list__item"><a class="list__item--links" href="#section">O nas</a></li>
+                <li class="list__item"><a class="list__item--links" href="#main">Nasza oferta</a></li>
+                <li class="list__item"><a class="list__item--links" href="#footer">Kontakt</a></li>
+            </ul>
+            <ul class="navigation__list">
+                <li class="list__item"><a class="list__item--links" target="_blank" rel="noreferrer noopener"
+                        href="tel:+48.698(653)763" title="This link will call automatically">&#128222;</a></li>
+                <li class="list__item"><a class="list__item--links" target="_blank" rel="noreferrer noopener"
+                        href="mailto:wikomeble@gmail.com"
+                        title="This link takes you to write an email right away">✉️</a></li>
+            </ul>
+        </div>
     </nav>
     <header id="header">
         <h1>WIKO - Meble na wymiar</h1>
-        <img/>
+        <img />
     </header>
     <section id="section">
         <h2>O nas</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sit eveniet quos voluptate eligendi esse fugiat maiores placeat architecto suscipit. Perferendis, pariatur sunt consequuntur aut exercitationem vitae voluptates modi dolorum!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam sit eveniet quos voluptate eligendi esse
+            fugiat maiores placeat architecto suscipit. Perferendis, pariatur sunt consequuntur aut exercitationem vitae
+            voluptates modi dolorum!</p>
     </section>
-    <main id="gallery">
-        <h2 class="gallery__header">Nasza oferta</h2>
-        <button class="gallery__button--prev">←</button>
-        <div class="gallery__container">
-            <img class="gallery__images" src="img/captain.jpeg" alt="Image 1">
-            <img class="gallery__images" src="img/hulk.png" alt="Image 2">
-            <img class="gallery__images" src="img/iron.jpeg" alt="Image 3">
+    <main id="main">
+        <div class="gallery">
+            <h2 class="gallery__header">Nasza oferta</h2>
+            <button class="gallery__button--prev">←</button>
+            <div class="gallery__container">
+                <img class="gallery__images" src="img/captain.jpeg" alt="Image 1">
+                <img class="gallery__images" src="img/hulk.png" alt="Image 2">
+                <img class="gallery__images" src="img/iron.jpeg" alt="Image 3">
+            </div>
+            <button class="gallery__button--next">→</button>
         </div>
-        <button class="gallery__button--next">→</button>
     </main>
     <footer id="footer">
 
