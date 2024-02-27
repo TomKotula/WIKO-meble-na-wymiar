@@ -111,6 +111,7 @@ body {
   background-image: url('img/certyfikat.jpg');
   background-position: center;
   border-radius: 20%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 #main {
