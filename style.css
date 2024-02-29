@@ -168,11 +168,25 @@ body {
   padding: 35px;
 }
 
+@media (max-width: 767px) {
+  #main {
+    padding: 20px;
+  }
+}
+
 .main__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 100px;
   border: 1px solid #ccc;
+}
+
+@media (max-width: 767px) {
+  .main__container {
+    display: block;
+    border: none;
+    padding: 0px;
+  }
 }
 
 .gallery {
