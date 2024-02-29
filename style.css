@@ -50,6 +50,8 @@ body {
 .list__item--links {
   text-decoration: none;
   color: black;
+  width: 20px;
+  height: 20px;
 }
 
 .list__item--links:hover {
