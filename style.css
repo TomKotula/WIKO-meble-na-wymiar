@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -51,6 +52,7 @@ body {
 @media (max-width: 767px) {
   .navigation__list {
     padding-inline-start: 0px;
+    margin: 5px;
   }
 }
 
