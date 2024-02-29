@@ -217,4 +217,5 @@ body {
 
 .footer__list {
   list-style-type: none;
+  padding: 5px;
 }
