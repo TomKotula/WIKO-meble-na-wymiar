@@ -247,10 +247,23 @@ body {
   padding: 35px;
 }
 
+@media (max-width: 767px) {
+  #footer {
+    padding: 20px;
+  }
+}
+
 .footer__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 1px solid #ccc;
+}
+
+@media (max-width: 767px) {
+  .footer__container {
+    border: none;
+    /* grid-template-columns: 1fr; */
+  }
 }
 
 .footer__box {
