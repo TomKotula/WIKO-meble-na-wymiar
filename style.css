@@ -276,7 +276,7 @@ body {
 @media (max-width: 767px) {
   .footer__container {
     border: none;
-    /* grid-template-columns: 1fr; */
+    grid-template-columns: 1fr;
   }
 }
 
@@ -292,7 +292,13 @@ body {
   font-style: normal;
 }
 
-.footer__list {
+@media (max-width: 767px) {
+  .footer__list {
+    padding-inline-start: 0px;
+  }
+}
+
+.footer__listItem {
   list-style-type: none;
   padding: 5px;
 }
