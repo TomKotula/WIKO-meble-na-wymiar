@@ -112,6 +112,12 @@ body {
   font-style: normal;
 }
 
+@media (max-width: 767px) {
+  .header__header {
+    font-size: 25px;
+  }
+}
+
 #section {
   padding: 35px;
 }
