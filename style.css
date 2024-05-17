@@ -101,7 +101,7 @@ body {
 .header__container {
   display: grid;
   justify-content: center;
-  background-image: url('img/kuchnia.jpg');
+  background-image: url('img/mainPhoto.jpg');
   background-size: cover;
   background-position: center;
   color: white;
