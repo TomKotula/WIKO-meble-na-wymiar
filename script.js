@@ -2,7 +2,7 @@
   const showFirstImage = () => {
     const images = document.querySelectorAll(".gallery__images");
     images[0].style.display = "block";
-  }
+  };
 
   const changeImage = (step) => {
     const images = document.querySelectorAll(".gallery__images");
