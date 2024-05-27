@@ -113,6 +113,12 @@ body {
   font-style: normal;
 }
 
+@media (min-width: 1200px) {
+  .header__container {
+    height: 750px;
+  }
+}
+
 @media (max-width: 767px) {
   .header__header {
     font-size: 25px;
