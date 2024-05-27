@@ -102,6 +102,7 @@ body {
   display: grid;
   justify-content: center;
   background-image: url("img/mainPhoto.jpg");
+  -webkit-text-stroke: 0.1px black;
   background-size: cover;
   background-position: center;
   color: white;
